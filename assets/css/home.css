@@ -1,0 +1,144 @@
+body{
+    min-width: 50%;
+    margin: 0;
+    background-color: grey;
+}
+
+main{
+    width:70%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.7rem;
+    border: 1.5px lightgray solid;
+}
+
+#header-container{
+    text-align: center;
+}
+
+input,select{
+    padding: 2px 2px 15px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+}
+
+input:focus,select:focus,textarea:focus,button:focus {
+    outline: none;
+}
+
+.description-container{
+    width: 97.8%;
+    border-top: 1.5px lightgray solid;
+}
+
+#cat-date-container{
+    display: flex;
+    flex-direction: row;
+    border-top: 1.5px lightgray solid;
+}
+
+.category-container{
+    width: 50%;
+    border-right: 1.5px lightgray solid;
+    text-align: justify;
+}
+
+.category-container:hover{
+    cursor: pointer;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0) !important; */
+}
+
+.date-container{
+    width: 50%;
+    text-align: justify;
+}
+
+.date-container:hover{
+    cursor: pointer;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0); */
+}
+
+.button-container{
+    width: 100%;
+    border-top: 1.5px lightgray solid;
+    border-bottom: 1.5px lightgray solid;
+}
+
+label{
+    display: block;
+}
+
+div{
+    padding: 3px 10px 3px 10px;
+}
+
+li{
+    list-style: none;
+}
+
+#add{
+    background-color: darkgray;
+}
+
+#delete{
+    background-color: red;
+}
+
+#button-container{
+    text-align: center;
+    padding: 10px;
+    border-top: 1.5px lightgray solid;
+}
+
+#button-container button{
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5rem;
+    border-color: black;
+}
+
+#button-container button:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+    cursor: pointer;
+}
+
+.task{
+    border-top: 1.5px lightgray solid;
+    display: flex;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+input[type="checkbox"]{
+    width: 5%;
+    text-align: justify;
+}
+
+#print-description{
+    width: 80%;
+    text-align: justify;   
+}
+
+#print-category{
+    width: 15%;
+    padding: 10px 5px;
+    text-align: center;
+    color: white;
+    background-color: navy;
+}
